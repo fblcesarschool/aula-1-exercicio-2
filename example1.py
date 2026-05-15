@@ -4,7 +4,7 @@ import time
 
 class LojaOnline:
   
-    def __init__(self):
+    def __init__(self): 
         self.estoque = {'item_raro': 1}
         self.mutex = threading.Lock()
       
