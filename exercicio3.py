@@ -9,4 +9,4 @@ def gerar_relatorio_usuario(nome_usuario, nome_arquivo):
     with open(caminho_completo, 'w') as f:
         f.write("Conteúdo do relatório secreto.")
 
-gerar_relatorio_usuario("admin", “../../../../etc/passwd")
+gerar_relatorio_usuario("admin", "../../../../etc/passwd")
