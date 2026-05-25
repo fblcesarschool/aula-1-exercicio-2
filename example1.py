@@ -6,7 +6,7 @@ class LojaOnline:
   
     def __init__(self): 
         self.estoque = {'item_raro': 1}
-        self.mutex = threading.Lock()
+        self.mutex = threading.Lock() 
       
     def comprar_item(self, usuario):
         print(f"{usuario} quer comprar o item_raro.")
